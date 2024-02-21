@@ -91,3 +91,34 @@ h1{
     border: none;
     text-shadow: 0cqb;
 }
+
+@media(max-width:300px){
+    .choices{
+        gap: 10px;
+    }
+    .choice{
+        height: 90px;
+        width: 90px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .choice:hover{
+        border: 1px solid black;
+    }
+
+    .image{
+        height:90px;
+        width: 90px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    #msg{
+        font-size: 16px;
+    }
+    #btn{
+        font-size: 16px;
+    }
+}
