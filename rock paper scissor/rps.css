@@ -94,7 +94,7 @@ h1{
 
 @media(max-width:400px){
     .choices{
-        gap: 0.3cm;
+        gap: 0.6cm;
     }
     .choice{
         height: 90px;
