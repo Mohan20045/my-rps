@@ -92,7 +92,7 @@ h1{
     text-shadow: 0cqb;
 }
 
-@media(max-width:300px){
+@media(max-width:350px){
     .choices{
         gap: 5px;
     }
