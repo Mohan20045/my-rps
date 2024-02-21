@@ -15,7 +15,7 @@ function getCompChoice(){
 
 function printwinner(user,comp){
     if(user==comp){
-        msg.innerText=`it's draw. You and computer choose ${user}`;
+        msg.innerText=`it's draw. Both choose ${user}`;
         msg.style.backgroundColor="rgb(31, 29, 29)";
 
     }
